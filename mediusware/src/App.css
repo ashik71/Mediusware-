@@ -1,22 +1,96 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
+ul {
+  list-style: none;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.header {
+  background: #2A4151;
+  border-bottom: 1px solid #3F676F;
 }
 
-.App-link {
-  color: #09d3ac;
+.dashboard-header {
+  background: #fff;
+  border-bottom: 1px solid #C8C8C8;
+  margin-top: 10px;
 }
+
+.dash {
+  border-radius: 12px;
+  padding: 12px;
+  display: inline-block;
+  background: #BECDD9;
+  color: #2A4151;
+}
+
+.logo img{
+  margin-top: 7px;
+  margin-left: 12px;
+  width: 66px;
+}
+
+.icon {
+  font-size: 15px;
+  color: #406870;
+}
+
+.nav, .nav a {
+  color: #8F99A2;
+  font-size: 24px;
+}
+
+.menu-items {
+  background: #2A4151;
+  height: 98vh;
+}
+
+.icon-area {
+  border-bottom: 1px solid #406870;
+  margin-bottom: 15px;
+
+}
+.icon {
+  height: 42px;
+  margin: 5px;
+  padding: 2px 15px;
+  font-size: 25px;
+  color: #406870;
+}
+
+.icon-active {
+  color: #1FB193 !important
+}
+
+.icon > ul li {
+  float: left;
+  margin-right: 17px;
+}
+
+.item-hover a:hover{
+  border-radius: 50px;
+    background: #000!important;
+    color: #fff;
+}
+
+
+.active {
+  border-radius: 50px;
+  background: #3F676F !important;
+  color: #fff
+
+}
+
+.nav.active a {
+  color: #fff !important;
+}
+
+.nav-link span{
+  margin-right: 10px
+}
+
